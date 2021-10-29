@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -277,4 +278,285 @@ textarea {
         margin: 5px;
         font-size: 20px;
         color: #f39b6b;
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'proxima-nova', sans-serif;
+}
+header{
+    background-color: rgb(243 142 88);
+    
+ 
+   
+}
+    .header {
+    position: fixed;
+    background-color: #f38e59;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 7%;
+    width: 87%;
+}
+    #contact-us h1{
+    font-kerning: auto;
+    text-transform: uppercase; ;
+    font-size: 72px;    
+    color: #ffffff;
+    
+}
+ /********Navbar*******/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 791px;
+   
+}
+nav a {
+    padding-top: 25px;
+    color: white;
+    text-decoration: none;    
+}
+nav a:hover{
+    fill: white;
+    color: black;
+}
+    .navbar a:hover {
+    animation: ease-in-out 3s;
+    background-color:rgba(248, 219, 182, 0.548);
+    color: rgb(253, 228, 194);}
+    .button{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 32.3%;
+    padding: 15px 32px;
+    margin: 0 2px;
+}    
+    #contact-us{
+    flex-direction: column;
+   
+}
+    .Parent-Contact-us{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 240px 0 80px;
+       
+}
+    #button1{
+    border-radius: 10px;
+    color: #fff;
+    fill: rgb(2, 32, 47);
+    background-color: rgb(2, 32, 47);
+    padding: 3% 4%;
+    padding-bottom: 3.7%;
+    margin-left: 18%;
+    margin-top: 1%;
+    font-size: 12.8px;
+    text-decoration: none;
+   }
+   
+    #button2{
+        
+    text-decoration: none;
+    color: #fff;
+    border-color: #ffffff;
+    border: 3px solid;
+    border-radius: 7px;
+    padding: 2.2% 6% 3%;
+    margin-right: 8%;
+    margin-top: 1%;}
+    #button1:hover{
+    background-color:  rgb(4, 65, 96);
+}
+    #button2:hover{
+    background-color: #ffffff7c;
+    
+    }
+/******* Main Content Visible*****/
+main{
+   padding:0% 0% ;
+   display: flex;
+   flex-flow: row wrap ;
+}
+
+/******** Main Left********/
+        .Title{
+        padding: 0 30px 0 0;
+        font-size: 30.4px;
+        text-transform: uppercase;
+        color: #5bb5de;
+    }
+        .Title p{
+        font-size: 19.2px;
+        }
+        .Left{
+        width: 50%;
+
+    }
+        .Form{
+        padding: 0 30px 0 0px;
+        width:90%;
+        margin: 10%; ;
+    }
+        .Form form{
+        display: flex;
+        flex-direction: column;
+        margin-top:0%;
+}
+/**Mariam's helping instructions**/
+            input[type=text], textarea {
+            padding: 12px 20px;
+            margin: 10px 0;
+            display:flex;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font: 300 1em/1.35rem "proxima-nova", sans-serif;
+            }
+            input[type="email"], textarea{
+            padding: 12px 20px;
+            margin: 10px 0;
+            display:flex;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font: 300 1em/1.35rem "proxima-nova", sans-serif;
+            }
+            input[type="number"]{
+            padding: 12px 20px;
+            margin: 10px 0;
+            display:flex;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font: 300 1em/1.35rem "proxima-nova", sans-serif;    
+            }
+            input[type=submit] {
+            justify-self: flex-end;
+            width: 150px;
+            height: 50px;
+            background-color: #f39b6b;
+            border-style: none;
+            margin-top: 30px;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 28px 0 0 78%;
+            font: 300 1em/1.35rem "proxima-nova", sans-serif;
+            }
+            input[type=submit]:hover{
+            background-color: #D1784E;    
+            } 
+     /****** Form Area *****/     
+form{
+    display:flex;
+    font-size: 16px;
+  }
+
+textarea {
+    width: 100%;
+    height: 150px;
+}    
+        /*** Main Right***/
+        .main-right{
+        width: 50%;
+    }    
+        .S-Title{
+        font-size: 28px;
+        margin: 0 0;
+
+    }
+        .right{
+        padding: 0em 0em 0em 0em;
+        width:90%;
+        margin: 10%; 
+    }
+        .main-right i{
+        color: #f39b6b;
+        font-size: 80px;    
+    }
+        .main_right a{
+        font-size: 1em;
+    }
+        .help_center, .link{
+        text-decoration: none;
+        color: #F49B6C;
+    }
+        .SMI{
+        display: flex;
+        align-items: center;
+    }
+        .SMI i{
+        font-size: 70px;
+    }
+        .SMI p{
+
+        padding: 41px  153px  0px 20px;
+        font-size: 19.2px;
+    }
+    /****** Footer****/
+        .listing{
+        display: flex;
+        justify-content: space-evenly;
+        color: #FFFFFF99;
+        background-color:#404040;
+        padding: 40px 0px;
+    }
+        .listing li{
+        list-style: none;
+    }
+        #BTN2{
+        line-height: 4.26em;
+        text-transform: uppercase;
+        padding: 15px 32px;
+        border-radius: 10px;
+        color: #FFFFFF99;
+        fill: rgb(2, 32, 47);
+        background-color: rgb(2, 32, 47);
+        font-size: 12.8px;
+        margin: 0px px 0 0%;
+        ;
+        text-decoration: none;
+    }
+        #BTN2:hover{
+            background-color:  rgb(4, 65, 96);
+            
+        }
+
+       .Copyright{
+        font-size: 16px;
+        color: #FFFFFF99;
+        background-color: #333333;
+        padding:10px;
+    }
+        .Copyright p{
+        padding: 0 5%;
+        }
+        #CR{
+        text-decoration: none;
+        color: #F49B6C;
+        
+        }
+        .listing span{
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .listing a{
+        color: #FFFFFF99;
+        text-decoration: none;
+    
+    }
+        .list_icons i{ 
+        margin: 5px;
+        font-size: 20px;
+        color: #f39b6b;
+>>>>>>> c2385ff7c560e96806504f728ad81e488026ea27
     }
